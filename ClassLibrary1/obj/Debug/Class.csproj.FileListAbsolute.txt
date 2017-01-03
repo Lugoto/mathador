@@ -1,0 +1,5 @@
+d:\documents\visual studio 2015\Projects\Mathador\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\Mathador\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+d:\documents\visual studio 2015\Projects\Mathador\ClassLibrary1\obj\Debug\Class.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\Mathador\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\Mathador\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

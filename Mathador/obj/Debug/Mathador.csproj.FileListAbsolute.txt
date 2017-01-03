@@ -1,0 +1,8 @@
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\Mathador.exe.config
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\Mathador.exe
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\Mathador.pdb
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\ClassLibrary1.dll
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\ClassLibrary1.pdb
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\obj\Debug\Mathador.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\obj\Debug\Mathador.exe
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\obj\Debug\Mathador.pdb
