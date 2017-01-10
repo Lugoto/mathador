@@ -6,3 +6,5 @@ d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\ClassLibrar
 d:\documents\visual studio 2015\Projects\Mathador\Mathador\obj\Debug\Mathador.csprojResolveAssemblyReference.cache
 d:\documents\visual studio 2015\Projects\Mathador\Mathador\obj\Debug\Mathador.exe
 d:\documents\visual studio 2015\Projects\Mathador\Mathador\obj\Debug\Mathador.pdb
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\Newtonsoft.Json.dll
+d:\documents\visual studio 2015\Projects\Mathador\Mathador\bin\Debug\Newtonsoft.Json.xml

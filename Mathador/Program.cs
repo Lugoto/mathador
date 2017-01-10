@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +12,15 @@ namespace Mathador
     {
         static void Main(string[] args)
         {
+            
+            
             int number2 = 0;
             
             while (number2 < 1 || number2 > 101)
             {
+                JArray array = new JArray();
+                JArray array2 = new JArray();
+                JArray array3 = new JArray();
                 Random rnd = new Random();
                 Random r = new Random();
                 int add = 0;
@@ -27,6 +34,7 @@ namespace Mathador
                     int number = rnd.Next(1, 12);
                     Console.WriteLine("random");
                     Console.WriteLine(number);
+                    array.Add(number);
                     if (ctr <= 1)
                     {
                         number2 = number;
@@ -46,6 +54,7 @@ namespace Mathador
                                 Console.WriteLine(number2);
                                 add = 1;
                                 verif = true;
+                                array3.Add(num);
                             }
                             else if (num == 2 && sous == 0)
                             {
@@ -54,6 +63,7 @@ namespace Mathador
                                 Console.WriteLine(number2);
                                 sous = 1;
                                 verif = true;
+                                array3.Add(num);
                             }
                             else if (num == 3 && mult == 0)
                             {
@@ -62,6 +72,7 @@ namespace Mathador
                                 Console.WriteLine(number2);
                                 mult = 1;
                                 verif = true;
+                                array3.Add(num);
                             }
                             else if (num == 4 && div == 0)
                             {
@@ -70,6 +81,7 @@ namespace Mathador
                                 Console.WriteLine(number2);
                                 div = 1;
                                 verif = true;
+                                array3.Add(num);
                             }
                         }
                     }
@@ -81,7 +93,8 @@ namespace Mathador
                     int number = rnd.Next(1, 20);
                     Console.WriteLine("random");
                     Console.WriteLine(number);
-                    if (ctr <= 1)
+                        array.Add(number);
+                        if (ctr <= 1)
                     {
                         number2 = number;
                         Console.WriteLine("affiche");
@@ -100,6 +113,7 @@ namespace Mathador
                                     Console.WriteLine(number2);
                                     add = 1;
                                     verif = true;
+                                    array3.Add(num);
                                 }
                                 else if (num == 2 && sous == 0)
                                 {
@@ -108,6 +122,7 @@ namespace Mathador
                                     Console.WriteLine(number2);
                                     sous = 1;
                                     verif = true;
+                                    array3.Add(num);
                                 }
                                 else if (num == 3 && mult == 0)
                                 {
@@ -116,6 +131,7 @@ namespace Mathador
                                     Console.WriteLine(number2);
                                     mult = 1;
                                     verif = true;
+                                    array3.Add(num);
                                 }
                                 else if (num == 4 && div == 0)
                                 {
@@ -124,15 +140,31 @@ namespace Mathador
                                     Console.WriteLine(number2);
                                     div = 1;
                                     verif = true;
+                                    array3.Add(num);
                                 }
                             }
                         }
-                }
+                    }
                 }
                 Console.WriteLine("--------------------FINALUS--------------------");
                 Console.WriteLine(number2);
+                array2.Add(number2);
+                Console.ReadLine();
+                JObject o = new JObject();
+                o["RandomNumbers"] = array;
+                o["Objectif"] = array2;
+                o["Calculs"] = array3;
+
+                string json = o.ToString();
+                Console.WriteLine(json);
+
             }
             Console.ReadLine();
+
+            
+            
+
+            
         }
     }
 }
